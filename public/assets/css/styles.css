@@ -1,0 +1,24 @@
+:root{
+    --color-red: #dc3545;
+}
+
+#menu .btn-sair {
+  width: 130px;
+  text-align: right;
+}
+
+#menu .menu-links a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    transition: all .5s;
+}
+
+#menu .menu-links a:hover{
+    color: var(--color-red);
+}
+
+.text-right{
+    text-align: right;
+}

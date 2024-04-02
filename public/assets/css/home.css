@@ -1,0 +1,9 @@
+.empty-data{
+    text-align: center;
+}
+
+.empty-data h1{
+    color: #444;
+    font-weight: 300;
+    padding: 50px 0;
+}
