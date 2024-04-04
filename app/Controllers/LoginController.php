@@ -23,7 +23,7 @@ class LoginController extends BaseController
 
                 return redirect()->to(site_url('dashboard'));
             } else {
-                return redirect()->to(site_url('/'))->with('error', 'Usuário ou senha inválidos.');
+                return redirect()->to(site_url('/'))->with('error', 'Senha incorreta.');
             }
         }
 
