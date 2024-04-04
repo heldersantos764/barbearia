@@ -6,7 +6,7 @@
     <div class="menu-links d-flex gap-3">
         <a href="<?= site_url()?>">Início</a>
         <a href="<?= site_url('dashboard/history')?>">Histórico</a>
-        <a href="">Relatórios</a>
+        <a href="<?= site_url('dashboard/report')?>">Relatórios</a>
     </div>
     <div class="btn-sair">
         <a href="<?= base_url('logout') ?>" class="btn btn-danger">Sair</a>

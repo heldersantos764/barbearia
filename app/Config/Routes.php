@@ -14,4 +14,5 @@ $routes->group('dashboard', ['filter' => 'auth'], function($routes){
     $routes->get('history', 'Dashboard::history');
     $routes->post('entry', 'EntryController::store');
     $routes->get('entry/delete/(:num)', 'EntryController::delete/$1');
+    $routes->get('report', 'Dashboard::report');
 });
