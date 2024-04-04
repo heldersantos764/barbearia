@@ -27,4 +27,17 @@ class Dashboard extends BaseController
 
         return view('home', ['entries' => $entries]);
     }
+
+    public function history(){
+        $currentDateTime = date('Y-m-d H:i:s');
+        
+        $entries = $this->entryModel->orderBy('created_at',"desc")->paginate(10);
+
+        $data = [
+            'entries' => $entries,
+            'pager' => $this->entryModel->pager
+        ];
+
+        return view('history', $data);
+    }
 }

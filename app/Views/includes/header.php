@@ -4,8 +4,8 @@
     </a>
 
     <div class="menu-links d-flex gap-3">
-        <a href="">Início</a>
-        <a href="">Histórico</a>
+        <a href="<?= site_url()?>">Início</a>
+        <a href="<?= site_url('dashboard/history')?>">Histórico</a>
         <a href="">Relatórios</a>
     </div>
     <div class="btn-sair">
